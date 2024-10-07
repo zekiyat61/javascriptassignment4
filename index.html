@@ -38,9 +38,9 @@
                 
                 let date = new Date(year, 0, 1); 
                 if (date.getDay() === 0) {
-                    result += "1st January is a Sunday in the year " + year + "<br>";
+                    result += "1st January is a Sunday in the year ✅ " + year + "<br>";
                 }
-                else{result += "1st January is  not a Sunday in the year " + year + "<br>";}
+                else{result += "1st January is  not a Sunday in the year ❌ " + year + "<br>";}
             }
             document.getElementById('result-january').innerHTML = result;
         }
